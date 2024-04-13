@@ -1,0 +1,27 @@
+.hero
+{
+    display: flex;
+    justify-content: space-between;
+}
+.hero .left-h
+{
+    padding: 1rem 0 0 2rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.hero .left-h .the-best-ad
+{
+    color: rgb(3, 3, 3);
+    display: flex;
+    margin-top: 4rem;
+    background-color: rgb(174, 172, 172);
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+}
+.hero .right-h
+{
+    flex: 1;
+}
