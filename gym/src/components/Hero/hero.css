@@ -13,13 +13,82 @@
 }
 .hero .left-h .the-best-ad
 {
-    color: rgb(3, 3, 3);
+    color: white;
     display: flex;
     margin-top: 4rem;
-    background-color: rgb(174, 172, 172);
+    background-color: rgb(98, 97, 97);
     border-radius: 4rem;
     width: fit-content;
     padding: 20px 13px;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero .left-h .the-best-ad>span
+{
+    z-index: 2;
+}
+.hero .left-h .the-best-ad>div{
+    position: absolute;
+    background-color: orange;
+    width: 5.7rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;
+}
+.hero .left-h .hero-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: left;
+    text-overflow: inherit;
+}
+.hero .left-h .hero-text>div:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+.hero .left-h .figures{
+    color: white;
+    display: flex;
+    gap: 2rem;
+}
+.hero .left-h .figures>div{
+    display: flex;
+    flex-direction: column;
+}
+.hero .left-h .figures>div>span:nth-last-of-type(2){
+    color: white;
+    font-size: 2rem;
+}
+.hero .left-h .figures>div>span:nth-last-of-type(1){
+    color: gray;
+   text-transform: uppercase;
+}
+.hero .left-h .hero-buttons{
+   display: flex;
+   font-weight: normal;
+   gap: 2rem;
+}
+.hero .left-h .hero-buttons>:nth-child(1){
+ color: white;
+ background-color: orange;
+ width: 8rem;
+}
+.hero .left-h .hero-buttons>:nth-child(2){
+ color: white;
+ background-color: transparent;
+ width: 8rem;
+ border: 2px solid orange;
 }
 .hero .right-h
 {
