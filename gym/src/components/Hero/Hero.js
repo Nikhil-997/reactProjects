@@ -2,6 +2,8 @@ import React from 'react'
 import './hero.css'
 import Header from '../Header/Header'
 import Heart from '../../images/heart1.png'
+import HeroImg from '../../images/hero.jpeg'
+import chart from '../../images/chart.jpeg'
 export default function Hero() {
   return (
     <div className='hero'>
@@ -49,6 +51,13 @@ export default function Hero() {
             <img src={Heart}/>
             <span>Heart Rate</span>
             <span>116 BPM</span>
+          </div>
+          <img src={HeroImg} className='hero-img'/>
+          <div className='calories'>
+            <img src={chart} className='chart-img'/>
+            <div>
+              <span >Calories Burned</span>
+            <span className='text stroke-text'>220 Kcal</span></div>
           </div>
         </div>
     </div>

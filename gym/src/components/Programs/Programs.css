@@ -1,0 +1,45 @@
+.programs
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.programs .programs-header
+{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    font-style: italic;
+}
+.programs .program-categories
+{
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+.programs .program-categories .arrow
+{
+    width: 2rem;
+    height: 2rem;
+}
+.programs .program-categories .category
+{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+.programs .program-categories .category > :nth-child(1)
+{
+   fill: white;
+   width: 2rem;
+   height: 2rem;
+}
