@@ -36,10 +36,41 @@
     gap: 1rem;
     color: white;
     justify-content: space-between;
+    text-align: left;
+}
+.programs .program-categories .category:hover
+{
+    background-color:rgb(202, 104, 19);
+    cursor: pointer;
 }
 .programs .program-categories .category > :nth-child(1)
 {
    fill: white;
    width: 2rem;
    height: 2rem;
+}
+.programs .program-categories .category > :nth-child(2)
+{
+   font-size: 1rem;
+   font-weight: bold;
+}
+.programs .program-categories .category > :nth-child(3)
+{
+   font-size: 0.9rem;
+   line-height: 25px;
+}
+.programs .program-categories .category > :nth-child(3)
+{
+   font-size: 0.9rem;
+   line-height: 25px;
+}
+.programs .join-now
+{
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+}
+.programs .join-now > img
+{
+   width: 1rem;
 }
