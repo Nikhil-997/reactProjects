@@ -1,0 +1,23 @@
+.Reasons
+{
+    display: grid;
+    grid-auto-flow: column;
+    width: 50%;
+    /* overflow: auto; */
+}
+.Reasons .left-r > img
+{
+   width: 32rem;
+   height: 16rem;
+}
+.Reasons .left-r
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+.Reasons .right-r
+{
+   flex: 1 1;
+}
