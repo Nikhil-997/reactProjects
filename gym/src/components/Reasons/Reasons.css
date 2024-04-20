@@ -47,3 +47,37 @@
   font-size: 3rem;
   font-weight: bold;
 }
+.Reasons .details-r
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+.Reasons .details-r > div
+{
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  align-items: center;
+}
+.Reasons .details-r .tick
+{
+  width: 5rem;
+}
+.Reasons .right-r .our-partner
+{
+  text-transform: uppercase;
+  color: gray;
+}
+.Reasons .partners-logo
+{
+  width: 4rem;
+  height: 4rem;
+}
+.Reasons .partner-logo-container
+{
+ display: flex;
+ flex-direction: row;
+ gap: 0.5rem;
+}
