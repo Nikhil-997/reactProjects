@@ -2,8 +2,8 @@
 {
     display: grid;
     grid-auto-flow: column;
-    width: 50%;
-    /* overflow: auto; */
+    width: max-content;
+    grid-gap: 2rem;
 }
 .Reasons .left-r > img
 {
@@ -15,9 +15,35 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    padding: 2rem;
+    padding: 4rem 2rem;
+    width: fit-content;
 }
 .Reasons .right-r
 {
    flex: 1 1;
+}
+.Reasons .left-r>img
+{
+  object-fit: cover;
+}
+.Reasons .right-r
+{
+  color: white;
+  flex: 1 1;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+  text-align: left;
+}
+.Reasons .right-r > span
+{
+  color: orange;
+ font-weight: bold;
+}
+.Reasons .right-r > div
+{
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
 }

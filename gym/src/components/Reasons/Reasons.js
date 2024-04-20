@@ -13,7 +13,19 @@ const Reasons = () => {
             <img src={Image3}/>
             <img src={Image4}/>
         </div>
-        <div className='right-r'></div>
+        <div className='right-r'>
+          <span className='stroke-text'>Somw reasons</span>
+          <div>
+            <span>Why </span>
+            <span>choose us?</span>
+          </div>
+          <div className='details-r'>
+            <div><img></img><span></span></div>
+            <div><img></img><span></span></div>
+            <div><img></img><span></span></div>
+            <div><img></img><span></span></div>
+          </div>
+        </div>
     </div>
   )
 }
